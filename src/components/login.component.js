@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 export default class Login extends Component {
     
     handleSubmit = e => {
-        
-        const [details] = useState({email: "", password: ""});
         e.preventDefault();
-        Login(details);
+        
+        const data = {
+            email: this.email,
+            password: this.password
+        }
+        console.log(data);
 
     };
 
