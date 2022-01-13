@@ -8,9 +8,9 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-      {/* <header>
+      <header>
       <img class="logo" src="./Frame.png" alt="logo"/>
-      </header> */}
+      </header>
 
       <div className='auth-wrapper'>
         <div className='auth-inner'>
