@@ -1,27 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Login from "./components/login.component.js";
+import LoginForm from "./components/login/LoginForm/login.component";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Forgot from './components/forgot.component';
+import ForgotForm from './components/login/ForgotForm/forgot.component';
+import Home from './components/homepage/home.component';
 
 function App() {
+  
   return (
-    <BrowserRouter>
+    
     <div className="App">
-      <header>
-      <img class="logo" src="./Frame.png" alt="logo"/>
-      </header>
-
-      <div className='auth-wrapper'>
-        <div className='auth-inner'>
           <Routes>
-            <Route exact path="/login" element={<Login/>} />
-            <Route exact path="/forgot" element={<Forgot/>} />
+            <Route exact path="/login" element={<LoginForm />} />
+            <Route exact path="/forgot" element={<ForgotForm />} />
+            <Route exact path="/home" element={<Home/>} />
           </Routes>
-        </div>
-      </div>
     </div>
-    </BrowserRouter>
   );
 }
 
