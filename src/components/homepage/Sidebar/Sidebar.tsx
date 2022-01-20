@@ -3,6 +3,7 @@ import logo from "../img/Logo.png";
 import money from "../img/money.png"
 import basicMoney from "../img/basic-money.png"
 import forder from "../img/folder check.png"
+import "../homepg.css";
 
 
 
