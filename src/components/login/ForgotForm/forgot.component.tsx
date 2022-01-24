@@ -30,7 +30,7 @@ export default class ForgotForm extends Component {
                     </input>
                 </div>
                 <p className="forgot-pw">
-                    <Link className="forgot-pw" to={'/login'}>Quay lại trang chủ</Link>
+                    <Link className="forgot-pw" to={'/'}>Quay lại trang chủ</Link>
                 </p>
                 <button className="btn-forgot">Cấp lại mật khẩu</button>
             </form>

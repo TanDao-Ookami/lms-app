@@ -1,11 +1,7 @@
 import React, {Component} from "react";
 import { Link } from "react-router-dom";
 import "../login.css";
-
-
-
-
-
+import logo from "../img/Frame.png";
 
 export const LoginForm = () => {
     
@@ -15,7 +11,7 @@ export const LoginForm = () => {
     }
     return (
     <div className="login">
-    <img className="logo" src="./Frame.png" alt="logo"/>
+    <img className="logo" src={logo} alt="logo"/>
         <form className="form" onSubmit={handleSubmit}>
             <h1>Đăng nhập</h1>
 
