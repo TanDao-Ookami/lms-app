@@ -15,6 +15,8 @@
     height: 80px;
     /* border-style: solid; */
     margin: auto;
+    display: flex;
+    padding-top: 10px;
 }
 
 .search-selection ul {
@@ -29,8 +31,10 @@
 
 .search-selection ul li{
     
-    padding-right: 206px;
+    padding-right: 40px;
     float:left;
+    /* border-style: solid; */
+    display: flex;
     
 }
 
@@ -38,12 +42,188 @@
 .select-box {
     width: 158px;
     height: 32px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* padding: 0px 4px 0px 8px; */
-    border: 1px solid #373839;
+    border: 1px solid;
+    border-color: rgba(55, 56, 57, 0.7);
     border-radius: 4px;
-    /* display: inline-flex; */
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    margin-top: 3px;
+    margin-left: 8px;
+    position: relative;
+    /* color: #FF7506; */
+}
+.select-box .select-text {
+    color: #000;
+    /* border:1px solid; */
+    padding-left: 8px;
+    text-align: center;
+    line-height: 32px;
+    color: #373839;
+    opacity: 0.7;
+}
+.dropdown_icon {
+    width: 32px;
+    border-left: 1px solid;
+    border-color: rgba(55, 56, 57, 0.7);
+    
+}
+
+.select-nav {
+    /* font-size: 16px; */
+    /* border-style: solid; */
+    width: 158px;
+    /* height: 70px; */
+    position: absolute;
+    top: 28px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(133, 178, 220, 0.25);
+    display: none;
+    background: #FFFFFF;
+    /* padding-top: 5px; */
+    z-index: 1;
+}
+.select-box:hover .select-nav {
+    display: block;
+}
+.select-nav-block {
+    color: #373839;
+    opacity: 0.7;
+    text-decoration: none;
+    /* border-style: solid; */
+    width: 158px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.select-nav-block:hover {
+    color: #373839;
+    opacity: 0.7;
+}
+
+.select-nav-text {
+    /* width: 158px; */
+    /* border-style: solid; */
+}
+.heading_search_input{
+    width: 320px;
+    height: 40px;
+    background: #F0F3F6;
+    border-radius: 24px;
+    background-image: url(./img/search.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 5px;
+    padding-left: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    border: none;
+    outline: none;
+    margin-left: 100px;
+}
+.heading_search_input::placeholder{
+    color: #c5c5c5;
+    font-size: 14px;
+}
+.content-table {
+    padding: 0 65px;
+}
+.content_list_class__heading{
+    height: 40px;
+    border: 1px solid #F2F2F2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);;
+    padding-left: 36px;
+}
+.content_list_class__heading_item{
+    display: inline-flex;
+    line-height: 21px;
+    margin: 0 120px 0 0;
+    justify-content: flex-start;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 25px;
+
+}
+.content_list_class__content{
+    padding: 0 36px;
+    position: relative;
+    display: flex;
+    height: 58px;
+    line-height: 58px;
+}
+.content_list_class__content.bg_light_grey{
+    background: #F0F3F6 ;
+}
+.content_list_class__content_item__id_class{
+    position: absolute;
+    left: 34px;
+    display: block;
+    
+}
+.content_list_class__content_item__code_class{
+    position: absolute;
+    left: 200px;
+    display: block;
+    width: 81px;
+    
+}
+.content_list_class__content_item__name_class{
+    position: absolute;
+    left: 404px;
+    display: block;
+    width: 61px;
+    
+}
+.content_list_class__content_item__quanity_class{
+    position: absolute;
+    left: 605px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    
+}
+.content_list_class__content_item__update_class{
+    position: absolute;
+    left: 900px;
+    
+}
+.content_list_class__content_item__icon_class{
+    position: absolute;
+    left: 1300px;
+    top: 12px;
+    width: 32px;
+    
+}
+.content_list_class{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.bottom-table{
+    margin-top: 200px;
+    display: flex;
+    line-height: 26px;
+    padding: 0 65px;
+}
+.footer_list_class__description{
+    display: flex;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer_list_class__view_page{
+    display: inline-block;
+    width: 34px;
+    height: 26px;
+    margin: 0 8px;
+    border: 1px solid #FF7506;
+    border-radius: 4px;
+    padding-left: 6px;
+    font-style: normal;
 }
