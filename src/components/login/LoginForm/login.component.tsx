@@ -1,19 +1,23 @@
-import React, {Component} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../login.css";
 import logo from "../img/Frame.png";
 
-export const LoginForm = () => {
+
+type LoginProps = {
+    name:string
+}
+
+export const LoginForm = (props: LoginProps) => {
     
     const handleSubmit = (e: any) => {
         e.preventDefault();
-        
     }
     return (
     <div className="login">
     <img className="logo" src={logo} alt="logo"/>
         <form className="form" onSubmit={handleSubmit}>
-            <h1>Đăng nhập</h1>
+            <h1 className="login_title">Đăng nhập</h1>
 
             <div className="form-group">
                 <label>Tên đăng nhập</label>

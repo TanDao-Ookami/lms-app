@@ -153,6 +153,8 @@
 }
 .title_home-icon{
   padding-left: 23px;
+  width: 50px;
+  height: 30px;
 }
 .navbar-menu-list {
   list-style: none;
@@ -246,6 +248,20 @@
   margin-left: 30px;
 }
 
+.home-content {
+  width: 1640px;
+  margin-left: 125px;
+}
+.content-address {
+  display: flex;
+  align-items: center;
+}
+
+.content-address > .address-present {
+  font-size: 48px;
+    color: #373839;
+    display: inline-block;
+}
 
 
 

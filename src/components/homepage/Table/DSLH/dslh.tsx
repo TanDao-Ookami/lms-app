@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../table.css";
 import caret_down from "../img/caret_down.png";
 import icon_button from "../img/icon button.png";
-
+import { Link } from "react-router-dom";
 
 
 export default class DSLH extends Component {
@@ -90,7 +90,7 @@ export default class DSLH extends Component {
                         <p className="content_list_class__content_item__name_class">KT_19A</p>
                         <p className="content_list_class__content_item__quanity_class">1</p>
                         <p className="content_list_class__content_item__update_class">01/07/2021</p>
-                        <img src={icon_button} className="content_list_class__content_item__icon_class"/>
+                        <Link to={"/detail"}><img src={icon_button} className="content_list_class__content_item__icon_class"/></Link>
 
                     </div>
                     <div className="content_list_class__content bg_light_grey">
