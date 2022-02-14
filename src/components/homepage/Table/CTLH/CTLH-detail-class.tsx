@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Detail_class from "./detail-class";
 import { Link } from "react-router-dom";
 import add from "../img/fi_plus.png";
 import Tariff_content from "./CTLH-detail-content";
+import Modal_detail from "../../Modal/modal-detail/modal-add-detail";
 
 function Table_detail_class(){
+   const [isOpen, setIsOpen] = useState(false);
     return(
         
             <div className="table_content">
+               {isOpen && <Modal_detail setIsOpen={setIsOpen} />}
                 <div className="table_content_content">
                     <div className="detail_form">
 
@@ -57,7 +60,7 @@ function Table_detail_class(){
                         <p className="list_tariff_name">
                            Danh sách biểu phí
                         </p>
-                        <button className="button_add_tariff">
+                        <button className="button_add_tariff" onClick={() => setIsOpen(true)}>
                            <img src={add} alt="" className="icon_add_tariff"/>
                            Thêm biểu phí
                         </button>
@@ -95,6 +98,7 @@ function Table_detail_class(){
                         </div>
                     </div>
                 </div>
+                
             </div>
         
         

@@ -121,23 +121,23 @@
     display: flex;
     padding: 0 130px 0 120px;
     height: 40px;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     border-radius: 4px 4px 0px 0px;
-    
+    line-height: 40px;
 }
 .tariff_heading_info{
-    
     display: flex;
     width: 602px;
     justify-content: space-between;
     position: relative;
+    
 }
 .link_tariff_detail{
     width: 296px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    /* align-items: center; */
 }
 .tariff_heading_item{
     color: #FAFBFC;
@@ -148,10 +148,11 @@
 .table_tariff_content{
     display: flex;
     flex-wrap: wrap;
-    
     height: 40px;
     align-items: center;
     justify-content: space-between;
+    line-height: 20px;
+    padding-top: 10px;
 }
 .tariff_content_item{
     width: 100%;
@@ -196,4 +197,9 @@
     color: #ED2025;
     font-weight: 700;
     text-decoration: underline;
+}
+
+.tariff_content-bg_grey {
+    height: 40px;
+    line-height: 40px;
 }

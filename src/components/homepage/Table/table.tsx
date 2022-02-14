@@ -9,6 +9,7 @@ export default class Table extends Component {
         return (
             <div className="table">
                 <DSLH />
+                
             </div>
         )
     }
