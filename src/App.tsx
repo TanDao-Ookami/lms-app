@@ -1,23 +1,21 @@
-import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Login from './components/login/login';
-import {Routes, Route} from "react-router-dom";
-import ForgotForm from './components/login/ForgotForm/forgot.component';
-import Home from './components/homepage/homepg';
-import Detail from './components/homepage/detailClass';
-// import { Home } from './components/homepage/home.component';
+import { Routes, Route } from "react-router-dom";
+import {Login} from "./component/login/login";
+import Forgot from "./component/login/forgot";
+import Home from "./component/home/homepage/home";
+import Detail from "./component/home/homepage/DetailClass"
+import List_student from "./component/home/homepage/List_student";
 
 function App() {
-  
   return (
-    
     <div className="App">
-          <Routes>
-            <Route  path="/" element={<Login />} />
-            <Route  path="/forgot" element={<ForgotForm />} />
-            <Route  path="/home" element={<Home/>} />
-            <Route  path="/detail" element={<Detail/>} />
-          </Routes>
+      <Routes>  
+        <Route  path="/" element={<Login />} />
+        <Route  path="/forgot" element={<Forgot />} />
+        <Route  path="/home" element={<Home />} />
+        <Route  path="/detailclass" element={<Detail />} />
+
+        <Route  path="/liststudent" element={<List_student />} />
+      </Routes>
     </div>
   );
 }
