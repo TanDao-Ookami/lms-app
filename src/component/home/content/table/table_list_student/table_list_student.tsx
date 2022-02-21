@@ -1,10 +1,13 @@
 import React from "react";
-import upandown from "./img/u_arrow up down.png";
+import upandown from "../img/u_arrow up down.png";
 import sreach from "./img/search.png";
-import info_student from "./img/infor student.png";
-import { Liststudent } from "../../data/listStudent";
-import Number_on_page from "./number_on_table";
-import Number_page from "./number_page";
+import unionleft from "../img/Unionleft.png"
+import unionright from "../img/Unionright.png"
+import info_student from "../img/infor student.png";
+import { Liststudent } from "../../../data/listStudent";
+import Number_on_page from "../component_table/number_on_table";
+import Number_page from "../component_table/number_page";
+import { Link } from "react-router-dom";
 
 
 function Table_list_student (){
@@ -84,10 +87,12 @@ function Table_list_student (){
                                         } 
                                         
                                     </span>
-                                    
+                                    <Link className="student--content_item--link_link" to={'/studentprofile'}>
                                     <a href="" className="student--content_item--link">
                                         <img src={info_student} alt="" className="student--content_item--icon" />
                                     </a>
+                                    </Link>
+                                    
 
                                 </li>
                             )
@@ -102,7 +107,15 @@ function Table_list_student (){
                 <Number_on_page
                     number = "8"
                 />
-                
+               <div className="number_page">
+                    <img src={unionleft} alt="" className="number_page_icon"/>
+                     <p className="number_page_on">1</p>
+                     <p className="number_page_on">2</p>
+                     <p className="number_page_on">3</p>
+                     <p className="number_page_on">...</p>
+                     <p className="number_page_on">100</p>
+                    <img src={unionright} alt="" className="number_page_icon"/>
+                </div>
             </div>
             </div>
         </div>

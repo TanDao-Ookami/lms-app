@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/table.css"
 
 function Number_on_page (value:any){
     return(

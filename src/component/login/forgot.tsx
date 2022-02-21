@@ -20,11 +20,11 @@ export default class ForgotForm extends Component {
                 <h3>Cấp lại mật khẩu</h3>
 
                 <div className="form-group">
-                   <FormInput nametitle = "Tên đăng nhập"/>
+                   <FormInput nameTitle = "Tên đăng nhập"/>
                 </div>
 
                 <div className="form-group">
-                  <FormPassword nametitle = "Mã xác thực"/>
+                  <FormPassword nameTitle = "Mã xác thực"/>
                 </div>
                 <p className="forgot-pw">
                     <Link className="forgot-pw" to={'/'}>Quay lại trang chủ</Link>

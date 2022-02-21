@@ -1,10 +1,10 @@
 import { Component, ReactNode } from "react";
-import caret_down from "../img/caret_down.png";
-import "./css/table-list-class.css";
+import caret_down from "../../img/caret_down.png";
+import "../css/table-list-class.css";
 import icon_button from "../img/icon button.png";
 import DropDown_item from "./dropdown_item";
 import Table_content from "./table_content";
-
+import Number_page from "../component_table/number_page";
 export default class Table_list_class extends Component{
     
 
@@ -276,7 +276,6 @@ export default class Table_list_class extends Component{
                                 <span className="footer_list_class__view_page">8</span> 
                                 hàng trong mỗi trang</p>
                             
-                           
                         </div>
                 </div>
                 </div>

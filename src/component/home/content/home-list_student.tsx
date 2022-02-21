@@ -1,13 +1,13 @@
 import React, {Component} from "react";
 import Account from "./account/account";
 import Title_home from "./title/title";
-import Table_detail_class from "./table/table_detail_class";
+import Table_detail_class from "./table/table_detail_class/table_detail_class";
 import TitleBack from "./title/title_back";
 import TitleTarget from "./title/title_target";
 import FaChevronRight from "./img/chevron_big_right.png"
 import "./table/css/list_student.css"
 import "./table/css/table.css"
-import Table_list_student from "./table/table_list_student";
+import Table_list_student from "./table/table_list_student/table_list_student";
 
 export default class List_student_content extends Component{
     render(){

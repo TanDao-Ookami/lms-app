@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Account from "./account/account";
 import Title_home from "./title/title";
-import Table_detail_class from "./table/table_detail_class";
+import Table_detail_class from "./table/table_detail_class/table_detail_class";
 import TitleBack from "./title/title_back";
 import TitleTarget from "./title/title_target";
 import FaChevronRight from "./img/chevron_big_right.png"

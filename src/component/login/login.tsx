@@ -25,11 +25,11 @@ export const Login = () => {
                 <h1>Đăng nhập</h1>
 
                 <div className="form-group">
-                   <FormInput namenameTitle="Tên đăng nhập"/>
+                   <FormInput nameTitle="Tên đăng nhập"/>
                 </div>
 
                 <div className="form-group">
-                   <FormPassword nametitle = "Mật khẩu"/>
+                   <FormPassword nameTitle = "Mật khẩu"/>
                 </div>
                 <p className="forgot-pw">
                     <Link className="forgot-pw" to={'/forgot'}>Quên mật khẩu?</Link>
