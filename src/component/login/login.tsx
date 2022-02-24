@@ -6,8 +6,7 @@ import FormPassword from "./form_password";
 import user from "../img/Union.png";
 import pass from "../img/shield-keyhole-line.png";
 import "./login.css";
-
-
+import { FirebaseApp } from "firebase/app";
 export const Login = () => {
 
     const handleSubmit = (e: any) => {

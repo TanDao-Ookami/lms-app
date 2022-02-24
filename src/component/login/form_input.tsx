@@ -1,5 +1,5 @@
 import React from "react";
-
+// import firebase from "firebase";
 function FormInput (value:any){
     return(
         <div className="form-input">
