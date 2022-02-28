@@ -203,7 +203,11 @@
     font-weight: 600;
     cursor: pointer;
     border: none;
-}   
+}
+
+.button_detail_save:hover {
+    background-color: #FF7506;
+}
 
 /* modal calendar  */
 .detail_date{

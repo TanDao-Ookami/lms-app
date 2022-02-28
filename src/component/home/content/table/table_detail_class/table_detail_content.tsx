@@ -12,7 +12,7 @@ const Tariff_content = (value:any) => {
                 <p className="tariff_content_name">{value.tariff_name}</p>
                 <p className="tariff_content_date">{value.tariff_date}</p>
                 <p className="tariff_content_status">{value.tariff_status}</p>
-                <p className="tariff_content_stop">Ngừng hoạt động</p>
+                <p className="tariff_content_stop">Ngừng áp dụng</p>
             </div>
             <div className="link_tariff_detail ">
                 <div className="tariff_detail" onClick={() => setIsOpen_tariff_detail(true)} > 
