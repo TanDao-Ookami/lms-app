@@ -1,12 +1,6 @@
-/* body {
-  
-    background-image: url(./img/login-05\ 2.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    font-family: Mulish;
-    text-align: center;
-  } */
+* {
+    font-family: "Mulish";
+  }
   
   .form h1 {
     text-align: center;
