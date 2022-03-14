@@ -13,7 +13,7 @@ export default class Sidebar extends Component {
     render() {
         return (
     <div className="navbar">
-      <div className="navbar-content">
+      <div className="navbar-content">  
         <img className="logo-nav" src={logo} alt="logo"/>
         <ul className="navbar-icons">
                 <li className="icon-sidebar"> <a href="#"> <img className="icon-sidebar-img"  src={money_sidebar} alt="money"/></a></li>
