@@ -4,6 +4,8 @@
     color: #373839;
     margin-top: 0px;
     margin-bottom: 24px;
+    font-family: 'Mulish', sans-serif;
+
 }
 
 /* tabe list student */
@@ -21,6 +23,7 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
+   font-family: 'Mulish', sans-serif;
 }
 .list_student--title_name{
     margin: 0;
@@ -58,6 +61,8 @@
     padding: 0 166px 0 36px;
     background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
     border-radius: 8px 8px 0 0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
 }
 .student--table--heading_item{
     display: flex;
@@ -72,7 +77,7 @@
 .heading_item{
     color: #ffff;
     font-size: 18px;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 /* table_content */
 .list_student--content{
@@ -90,6 +95,8 @@
     height: 58px;
     align-items: center;
     color: #373839;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .student--content_item--order{
     padding-left: 44px;
@@ -167,6 +174,8 @@
     font-size: 18px;
     font-weight: 700;
     color: #373839;
+    font-family: 'Mulish', sans-serif;
+
 }
 
 .content_list_student--footer{
@@ -175,4 +184,6 @@
     margin-bottom: 28px;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
 }

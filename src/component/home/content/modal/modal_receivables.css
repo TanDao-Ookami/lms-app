@@ -27,6 +27,8 @@
 }
 .receivables_body_content{
     padding: 8px 8px 0px 64px;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .receivables_body_control {
@@ -74,6 +76,8 @@
     color: #FFFFFF;
     font-weight: 500;
     width: 756px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
     
 }
 /* table-receivables-title */
@@ -94,6 +98,7 @@
 .table-receivables-content-data-list {
     padding: 0px;
     margin: 0px;
+
 }
 /* table-receivables-content-data-item */
 .table-receivables-content-data-item {
@@ -141,9 +146,12 @@
     font-weight: 700;
     margin-top: 24px;
     border-radius: 8px;
+
 }
 .Total {
     color: rgba(204, 92, 0, 1);
+    font-family: 'Mulish', sans-serif;
+
 }
 .Price {
     width: 538px;

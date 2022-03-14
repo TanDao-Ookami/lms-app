@@ -8,7 +8,7 @@
 
 .navbar {
     display: contents;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar-content {
     background: linear-gradient(359.43deg, #ff5400 2.1%, #f17f21 98.52%);
@@ -170,7 +170,7 @@
   justify-content: flex-end;
   margin-top: 14px;
   font-size: 16px;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
   
 }
 .account-avatar{
@@ -231,7 +231,7 @@
   background-color: #fff;
   box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
   border-radius: 16px;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
 
 }
 .table_content_content{

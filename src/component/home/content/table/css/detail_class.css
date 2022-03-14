@@ -9,6 +9,8 @@
     border: 1px solid #FF7506;
     box-sizing: border-box;
     border-radius: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .detail_class{
     display: flex;
@@ -80,6 +82,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Mulish', sans-serif;
+
 }
 .list_tariff_name{
     font-size: 28px;
@@ -127,6 +131,7 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 4px 4px 0px 0px;
+    font-family: 'Mulish', sans-serif;
     
 }
 .tariff_heading_info{

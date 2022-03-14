@@ -1,12 +1,16 @@
 .content_address{
     display: flex;
     align-items: center;
+    font-family: 'Mulish', sans-serif;
+
 }
 .student_profile_title{
     font-size: 28px;
     color: #373839;
     font-weight: 700;
     margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+
 }
 .table_student_profile{
     
@@ -34,9 +38,13 @@
     color: #CC5C00;
     font-weight: 700;
     margin-bottom: 12px;
+    font-family: 'Mulish', sans-serif;
+
 }
 .student_profile{
     display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .profile_content_chill{
     display: flex;
@@ -67,6 +75,8 @@
     font-weight: 700;
     color: #CC5C00;
     margin-bottom: 16px;
+    font-family: 'Mulish', sans-serif;
+
 }
 
 .summary_sheet_name_detail{
@@ -82,6 +92,8 @@
     color: #FAFBFC;
     font-size: 18px;
     font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+
 }
 
 .item_heading_summary_order{
@@ -123,6 +135,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
     
 }
 
@@ -136,25 +149,25 @@
 }
 
 .item_content_summary_item--order{
-    width: 77px;
+    width: 85px;
 }
 .item_content_summary_item--number{
-    width: 148px;
+    width: 146px;
 }
 .item_content_summary_item--code{
-    width: 169px;
+    width: 175px;
 }
 .item_content_summary_item--date{
-    width: 208px;
+    width: 215px;
 }
 .item_content_summary_item--price{
-    width: 170px;
+    width: 175px;
 }
 .item_content_summary_item--unit{
-    width: 227px;
+    width: 232px;
 }
 .item_content_summary_item--detail{
-    width: 271px;
+    width: 275px;
 }
 .item_content_summary_item--link{
     border: none;

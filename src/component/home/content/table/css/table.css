@@ -3,6 +3,8 @@
     font-style: italic;
     font-size: 16px;
     font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .num_return{
     display: inline-block;
